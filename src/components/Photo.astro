@@ -1,0 +1,43 @@
+---
+import imageData from '../data/images.json';
+interface Props {
+  name: string;
+  alt: string;
+  class?: string;
+  sizes?: string;
+  priority?: boolean;
+  position?: string;
+}
+const {
+  name,
+  alt,
+  class: className,
+  sizes = '(max-width: 700px) 100vw, 50vw',
+  priority = false,
+  position,
+} = Astro.props;
+const focalPoints: Record<string, string> = {
+  digital: '18% center',
+  'galeria-mub': '16% center',
+  'galeria-painel': 'center 20%',
+  'galeria-urbana': '25% 30%',
+  onibus: '35% 30%',
+};
+const data = (imageData as Record<string, typeof imageData.cidade>)[name];
+if (!data) throw new Error(`Imagem não encontrada: ${name}`);
+const fallback = data.variants.find((v) => v.width >= 800) || data.variants.at(-1)!;
+---
+
+<img
+  class={className}
+  src={fallback.src}
+  srcset={data.variants.map((v) => `${v.src} ${v.width}w`).join(', ')}
+  sizes={sizes}
+  alt={alt}
+  width={data.width}
+  height={data.height}
+  loading={priority ? 'eager' : 'lazy'}
+  fetchpriority={priority ? 'high' : 'auto'}
+  decoding="async"
+  style={`object-position:${position || focalPoints[name] || 'center'}`}
+/>

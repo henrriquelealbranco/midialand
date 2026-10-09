@@ -1,0 +1,569 @@
+{
+  "cidade": {
+    "original": "CARROSSEL-TOPO.webp",
+    "width": 4032,
+    "height": 2754,
+    "variants": [
+      {
+        "width": 480,
+        "height": 328,
+        "src": "/images/cidade-480.webp",
+        "bytes": 48896
+      },
+      {
+        "width": 800,
+        "height": 546,
+        "src": "/images/cidade-800.webp",
+        "bytes": 130218
+      },
+      {
+        "width": 1200,
+        "height": 820,
+        "src": "/images/cidade-1200.webp",
+        "bytes": 277038
+      },
+      {
+        "width": 1800,
+        "height": 1229,
+        "src": "/images/cidade-1800.webp",
+        "bytes": 541442
+      }
+    ],
+    "source": "https://midialand.com/wp-content/themes/midialand24/assets/img/CARROSSEL TOPO.webp",
+    "pages": [
+      "https://midialand.com/produtos/",
+      "https://midialand.com/produtos"
+    ]
+  },
+  "estatico": {
+    "original": "estaticoimg.jpg",
+    "width": 3936,
+    "height": 2624,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/images/estatico-480.webp",
+        "bytes": 55394
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "src": "/images/estatico-800.webp",
+        "bytes": 133102
+      },
+      {
+        "width": 1200,
+        "height": 800,
+        "src": "/images/estatico-1200.webp",
+        "bytes": 254680
+      },
+      {
+        "width": 1800,
+        "height": 1200,
+        "src": "/images/estatico-1800.webp",
+        "bytes": 459822
+      }
+    ],
+    "source": "https://midialand.com/wp-content/themes/midialand24/assets/img/estaticoimg.jpg",
+    "pages": [
+      "https://midialand.com/"
+    ]
+  },
+  "digital": {
+    "original": "ledimg.jpg",
+    "width": 5419,
+    "height": 2557,
+    "variants": [
+      {
+        "width": 480,
+        "height": 226,
+        "src": "/images/digital-480.webp",
+        "bytes": 33218
+      },
+      {
+        "width": 800,
+        "height": 377,
+        "src": "/images/digital-800.webp",
+        "bytes": 86822
+      },
+      {
+        "width": 1200,
+        "height": 566,
+        "src": "/images/digital-1200.webp",
+        "bytes": 187770
+      },
+      {
+        "width": 1800,
+        "height": 849,
+        "src": "/images/digital-1800.webp",
+        "bytes": 422942
+      }
+    ],
+    "source": "https://midialand.com/wp-content/themes/midialand24/assets/img/ledimg.jpg",
+    "pages": [
+      "https://midialand.com/"
+    ]
+  },
+  "onibus": {
+    "original": "tvimg.jpg",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/images/onibus-480.webp",
+        "bytes": 35748
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "src": "/images/onibus-800.webp",
+        "bytes": 74212
+      },
+      {
+        "width": 1200,
+        "height": 800,
+        "src": "/images/onibus-1200.webp",
+        "bytes": 125982
+      },
+      {
+        "width": 1280,
+        "height": 853,
+        "src": "/images/onibus-1280.webp",
+        "bytes": 141722
+      }
+    ],
+    "source": "https://midialand.com/wp-content/themes/midialand24/assets/img/tvimg.jpg",
+    "pages": [
+      "https://midialand.com/"
+    ]
+  },
+  "embarque": {
+    "original": "slick4.webp",
+    "width": 5201,
+    "height": 2291,
+    "variants": [
+      {
+        "width": 480,
+        "height": 211,
+        "src": "/images/embarque-480.webp",
+        "bytes": 27882
+      },
+      {
+        "width": 800,
+        "height": 352,
+        "src": "/images/embarque-800.webp",
+        "bytes": 64518
+      },
+      {
+        "width": 1200,
+        "height": 529,
+        "src": "/images/embarque-1200.webp",
+        "bytes": 128466
+      },
+      {
+        "width": 1800,
+        "height": 793,
+        "src": "/images/embarque-1800.webp",
+        "bytes": 255140
+      }
+    ],
+    "source": "https://midialand.com/wp-content/themes/midialand24/assets/img/slick4.webp",
+    "pages": [
+      "https://midialand.com/"
+    ]
+  },
+  "estacoes": {
+    "original": "estacaoimg.jpg",
+    "width": 5105,
+    "height": 3403,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/images/estacoes-480.webp",
+        "bytes": 38674
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "src": "/images/estacoes-800.webp",
+        "bytes": 87698
+      },
+      {
+        "width": 1200,
+        "height": 800,
+        "src": "/images/estacoes-1200.webp",
+        "bytes": 169210
+      },
+      {
+        "width": 1800,
+        "height": 1200,
+        "src": "/images/estacoes-1800.webp",
+        "bytes": 424006
+      }
+    ],
+    "source": "https://midialand.com/wp-content/themes/midialand24/assets/img/estacaoimg.jpg",
+    "pages": [
+      "https://midialand.com/"
+    ]
+  },
+  "mobiliario": {
+    "original": "mubimg.jpg",
+    "width": 5351,
+    "height": 3567,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/images/mobiliario-480.webp",
+        "bytes": 34016
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "src": "/images/mobiliario-800.webp",
+        "bytes": 88524
+      },
+      {
+        "width": 1200,
+        "height": 800,
+        "src": "/images/mobiliario-1200.webp",
+        "bytes": 188702
+      },
+      {
+        "width": 1800,
+        "height": 1200,
+        "src": "/images/mobiliario-1800.webp",
+        "bytes": 471638
+      }
+    ],
+    "source": "https://midialand.com/wp-content/themes/midialand24/assets/img/mubimg.jpg",
+    "pages": [
+      "https://midialand.com/"
+    ]
+  },
+  "ativacao": {
+    "original": "ativacao-de-marca-1200x675.png",
+    "width": 1200,
+    "height": 675,
+    "variants": [
+      {
+        "width": 480,
+        "height": 270,
+        "src": "/images/ativacao-480.webp",
+        "bytes": 36134
+      },
+      {
+        "width": 800,
+        "height": 450,
+        "src": "/images/ativacao-800.webp",
+        "bytes": 78158
+      },
+      {
+        "width": 1200,
+        "height": 675,
+        "src": "/images/ativacao-1200.webp",
+        "bytes": 129778
+      }
+    ],
+    "source": "https://midialand.com/wp-content/uploads/2026/06/ativacao-de-marca-1200x675.png",
+    "pages": [
+      "https://midialand.com/ativacao-de-marca-em-curitiba/"
+    ]
+  },
+  "hackathon": {
+    "original": "Hackathon-3.jpeg",
+    "width": 1010,
+    "height": 673,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/images/hackathon-480.webp",
+        "bytes": 13708
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "src": "/images/hackathon-800.webp",
+        "bytes": 29476
+      },
+      {
+        "width": 1010,
+        "height": 673,
+        "src": "/images/hackathon-1010.webp",
+        "bytes": 44486
+      }
+    ],
+    "source": "https://midialand.com/wp-content/uploads/2026/05/Hackathon-3.jpeg",
+    "pages": [
+      "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+    ]
+  },
+  "hackathon-encontro": {
+    "original": "Hackathon-2.jpeg",
+    "width": 466,
+    "height": 699,
+    "variants": [
+      {
+        "width": 466,
+        "height": 699,
+        "src": "/images/hackathon-encontro-466.webp",
+        "bytes": 31282
+      }
+    ],
+    "source": "https://midialand.com/wp-content/uploads/2026/05/Hackathon-2.jpeg",
+    "pages": [
+      "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+    ]
+  },
+  "galeria-urbana": {
+    "original": "31.webp",
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 480,
+        "height": 270,
+        "src": "/images/galeria-urbana-480.webp",
+        "bytes": 35804
+      },
+      {
+        "width": 800,
+        "height": 450,
+        "src": "/images/galeria-urbana-800.webp",
+        "bytes": 87786
+      },
+      {
+        "width": 1200,
+        "height": 675,
+        "src": "/images/galeria-urbana-1200.webp",
+        "bytes": 170998
+      },
+      {
+        "width": 1600,
+        "height": 900,
+        "src": "/images/galeria-urbana-1600.webp",
+        "bytes": 191168
+      }
+    ],
+    "source": "https://midialand.com/wp-content/themes/midialand24/assets/img/31.webp",
+    "pages": [
+      "https://midialand.com/cases/",
+      "https://midialand.com/cases"
+    ]
+  },
+  "galeria-painel": {
+    "original": "43.webp",
+    "width": 3936,
+    "height": 2624,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/images/galeria-painel-480.webp",
+        "bytes": 40220
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "src": "/images/galeria-painel-800.webp",
+        "bytes": 99204
+      },
+      {
+        "width": 1200,
+        "height": 800,
+        "src": "/images/galeria-painel-1200.webp",
+        "bytes": 216428
+      },
+      {
+        "width": 1800,
+        "height": 1200,
+        "src": "/images/galeria-painel-1800.webp",
+        "bytes": 535982
+      }
+    ],
+    "source": "https://midialand.com/wp-content/themes/midialand24/assets/img/43.webp",
+    "pages": [
+      "https://midialand.com/cases/",
+      "https://midialand.com/cases"
+    ]
+  },
+  "galeria-rodovia": {
+    "original": "novas-1-12-.webp",
+    "width": 5419,
+    "height": 3613,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/images/galeria-rodovia-480.webp",
+        "bytes": 33016
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "src": "/images/galeria-rodovia-800.webp",
+        "bytes": 87204
+      },
+      {
+        "width": 1200,
+        "height": 800,
+        "src": "/images/galeria-rodovia-1200.webp",
+        "bytes": 186266
+      },
+      {
+        "width": 1800,
+        "height": 1200,
+        "src": "/images/galeria-rodovia-1800.webp",
+        "bytes": 390610
+      }
+    ],
+    "source": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (12).webp",
+    "pages": [
+      "https://midialand.com/cases/",
+      "https://midialand.com/cases"
+    ]
+  },
+  "galeria-terminal": {
+    "original": "58.webp",
+    "width": 5355,
+    "height": 3570,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/images/galeria-terminal-480.webp",
+        "bytes": 41864
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "src": "/images/galeria-terminal-800.webp",
+        "bytes": 91810
+      },
+      {
+        "width": 1200,
+        "height": 800,
+        "src": "/images/galeria-terminal-1200.webp",
+        "bytes": 174524
+      },
+      {
+        "width": 1800,
+        "height": 1200,
+        "src": "/images/galeria-terminal-1800.webp",
+        "bytes": 370314
+      }
+    ],
+    "source": "https://midialand.com/wp-content/themes/midialand24/assets/img/58.webp",
+    "pages": [
+      "https://midialand.com/cases/",
+      "https://midialand.com/cases"
+    ]
+  },
+  "galeria-mub": {
+    "original": "18.webp",
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 480,
+        "height": 270,
+        "src": "/images/galeria-mub-480.webp",
+        "bytes": 39678
+      },
+      {
+        "width": 800,
+        "height": 450,
+        "src": "/images/galeria-mub-800.webp",
+        "bytes": 92892
+      },
+      {
+        "width": 1200,
+        "height": 675,
+        "src": "/images/galeria-mub-1200.webp",
+        "bytes": 169762
+      },
+      {
+        "width": 1600,
+        "height": 900,
+        "src": "/images/galeria-mub-1600.webp",
+        "bytes": 203772
+      }
+    ],
+    "source": "https://midialand.com/wp-content/themes/midialand24/assets/img/18.webp",
+    "pages": [
+      "https://midialand.com/cases/",
+      "https://midialand.com/cases"
+    ]
+  },
+  "galeria-digital": {
+    "original": "novas-1-11-.webp",
+    "width": 5419,
+    "height": 3613,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/images/galeria-digital-480.webp",
+        "bytes": 34484
+      },
+      {
+        "width": 800,
+        "height": 533,
+        "src": "/images/galeria-digital-800.webp",
+        "bytes": 90026
+      },
+      {
+        "width": 1200,
+        "height": 800,
+        "src": "/images/galeria-digital-1200.webp",
+        "bytes": 190130
+      },
+      {
+        "width": 1800,
+        "height": 1200,
+        "src": "/images/galeria-digital-1800.webp",
+        "bytes": 385464
+      }
+    ],
+    "source": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (11).webp",
+    "pages": [
+      "https://midialand.com/cases/",
+      "https://midialand.com/cases"
+    ]
+  },
+  "sobre": {
+    "original": "SOBRE-N-S.webp",
+    "width": 836,
+    "height": 1011,
+    "variants": [
+      {
+        "width": 480,
+        "height": 580,
+        "src": "/images/sobre-480.webp",
+        "bytes": 95862
+      },
+      {
+        "width": 800,
+        "height": 967,
+        "src": "/images/sobre-800.webp",
+        "bytes": 242934
+      },
+      {
+        "width": 836,
+        "height": 1011,
+        "src": "/images/sobre-836.webp",
+        "bytes": 263590
+      }
+    ],
+    "source": "https://midialand.com/wp-content/themes/midialand24/assets/img/SOBRE NÓS.webp",
+    "pages": [
+      "https://midialand.com/sobre-nos/",
+      "https://midialand.com/sobre-nos"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Arrow from '../components/Arrow.astro';
+---
+
+<Layout
+  title="Página não encontrada"
+  description="Este caminho não foi encontrado. Volte ao início ou explore as soluções de mídia exterior da Midialand."
+  cta={false}
+>
+  <section class="container error-page">
+    <p class="small-label">Página não encontrada · 404</p>
+    <h1>
+      Vamos encontrar
+      <br />
+      um novo caminho?
+    </h1>
+    <p>O endereço pode ter mudado. Explore as soluções ou volte para o início.</p>
+    <a href="/" class="button">
+      Voltar ao início
+      <Arrow />
+    </a>
+  </section>
+</Layout>

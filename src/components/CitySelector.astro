@@ -1,0 +1,66 @@
+---
+import { cities } from '../data/site';
+import Arrow from './Arrow.astro';
+---
+
+<div class="city-selector" data-city-selector>
+  <div class="city-tabs" role="tablist" aria-label="Escolha a cidade">
+    {cities.map((city, i) => (
+      <button
+        type="button"
+        role="tab"
+        id={`tab-${city.id}`}
+        aria-controls={`panel-${city.id}`}
+        aria-selected={i === 0 ? 'true' : 'false'}
+        tabindex={i === 0 ? 0 : -1}
+      >
+        {city.name}
+        <Arrow direction="up" />
+      </button>
+    ))}
+  </div>
+  {cities.map((city, i) => (
+    <section
+      role="tabpanel"
+      aria-labelledby={`tab-${city.id}`}
+      id={`panel-${city.id}`}
+      class="city-panel"
+      tabindex="0"
+      hidden={i !== 0}
+    >
+      <div class="city-identity">
+        <p class="eyebrow">{city.state}</p>
+        <h3>
+          {city.name}
+          <span class="coral">.</span>
+        </h3>
+        <p>{city.description}</p>
+        <div class="tags">
+          {city.formats.map((format) => (
+            <span>{format}</span>
+          ))}
+        </div>
+      </div>
+      <div class="city-contact">
+        <span class="small-label">Planeje sua presença</span>
+        <p>{city.contactNote}</p>
+        <a class="phone-link" href={city.office.href}>
+          {city.office.phone}
+          <Arrow direction="up" />
+        </a>
+        <a class="text-link" href={`/downloads/${city.document}`} download>
+          Baixar inventário <span class="file-label">PDF</span>
+          <Arrow direction="down" />
+        </a>
+        <p class="fine-print">
+          Material de referência. Consulte a equipe para pontos e disponibilidade atuais.
+        </p>
+        <a class="text-link" href={`/contato/?cidade=${encodeURIComponent(city.name)}`}>
+          Planejar campanha nesta cidade
+          <Arrow />
+        </a>
+      </div>
+    </section>
+  ))}
+</div>
+<script src="../scripts/cities.ts"></script>

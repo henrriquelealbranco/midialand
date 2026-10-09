@@ -1,0 +1,73 @@
+---
+import { gallery } from '../data/site';
+import imageData from '../data/images.json';
+import Photo from './Photo.astro';
+import Arrow from './Arrow.astro';
+interface Props {
+  limit?: number;
+  filters?: boolean;
+}
+const { limit = 8, filters = false } = Astro.props;
+const entries = gallery.slice(0, limit);
+const categories = ['Todos', ...new Set(entries.map((x) => x.category))];
+---
+
+<div data-gallery>
+  {filters && (
+    <div class="gallery-filters" role="group" aria-label="Filtrar imagens por formato">
+      {categories.map((category, i) => (
+        <button type="button" data-filter={category} aria-pressed={i === 0 ? 'true' : 'false'}>
+          {category}
+        </button>
+      ))}
+    </div>
+  )}
+  <p class="sr-only" data-gallery-status aria-live="polite">
+    {entries.length} imagens
+  </p>
+  <div class="gallery-grid">
+    {entries.map((item) => {
+      const data = (imageData as Record<string, typeof imageData.cidade>)[item.image];
+      return (
+        <figure class="gallery-item" data-category={item.category}>
+          <button
+            type="button"
+            data-gallery-open
+            data-src={data.variants.at(-1)!.src}
+            data-title={item.title}
+            data-alt={item.alt}
+            aria-label={`Ampliar: ${item.title}`}
+          >
+            <Photo name={item.image} alt={item.alt} sizes="(max-width: 700px) 100vw, 33vw" />
+            <span class="zoom-icon" aria-hidden="true">
+              <Arrow direction="up" />
+            </span>
+          </button>
+          <figcaption>
+            <span>{item.category}</span>
+            <h3>{item.title}</h3>
+          </figcaption>
+        </figure>
+      );
+    })}
+  </div>
+  <dialog class="lightbox" aria-labelledby="lightbox-caption">
+    <div class="lightbox-toolbar">
+      <span data-lightbox-count></span>
+      <button type="button" class="icon-button" data-lightbox-close aria-label="Fechar imagem">
+        ✕
+      </button>
+    </div>
+    <div class="lightbox-view">
+      <button type="button" class="icon-button" data-lightbox-prev aria-label="Imagem anterior">
+        <Arrow direction="left" />
+      </button>
+      <img data-lightbox-image alt="" width="1800" height="1200" />
+      <button type="button" class="icon-button" data-lightbox-next aria-label="Próxima imagem">
+        <Arrow />
+      </button>
+    </div>
+    <p id="lightbox-caption" aria-live="polite"></p>
+  </dialog>
+</div>
+<script src="../scripts/gallery.ts"></script>

@@ -1,0 +1,76 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageIntro from '../components/PageIntro.astro';
+import CitySelector from '../components/CitySelector.astro';
+import Arrow from '../components/Arrow.astro';
+import { offices } from '../data/site';
+---
+
+<Layout
+  title="Onde estamos: Curitiba, São José dos Pinhais e Porto Alegre"
+  description="Encontre as praças, inventários de referência e contatos da Midialand em Curitiba, São José dos Pinhais e Porto Alegre. Planeje sua mídia por região."
+>
+  <PageIntro
+    eyebrow="Nossas praças"
+    title="Sua marca encontra o seu lugar."
+    description="Escolha uma cidade para conhecer os formatos e acessar os materiais de referência. A equipe ajuda a conectar o seu objetivo às possibilidades de cada praça."
+  />
+  <section class="container" aria-label="Praças e inventários">
+    <CitySelector />
+  </section>
+  <section class="section container">
+    <div class="transport-intro">
+      <div>
+        <p class="eyebrow">
+          <span class="dot"></span>Outros caminhos no Paraná
+        </p>
+        <h2>
+          Uma atuação que vai
+          <br />
+          além das capitais.
+        </h2>
+      </div>
+      <div>
+        <p>
+          A Midialand também informa atuação na Região Metropolitana de Curitiba, no litoral e no
+          interior do Paraná. Para essas regiões, converse com a equipe sobre as alternativas para a
+          sua campanha.
+        </p>
+        <a href="/contato/?cidade=Outra%20cidade" class="text-link" style="margin-top:16px">
+          Consultar outra região
+          <Arrow direction="up" />
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="section paper">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">
+            <span class="dot"></span>Vamos conversar
+          </p>
+          <h2>Encontre nossa equipe.</h2>
+        </div>
+      </div>
+      <div class="offices-grid">
+        {offices.map((office) => (
+          <article class="office-card">
+            <h3>
+              {office.city} · {office.state}
+            </h3>
+            <address>
+              {office.address}
+              <br />
+              {office.neighborhood}
+            </address>
+            <a class="phone-link" href={office.href}>
+              {office.phone}
+              <Arrow direction="up" />
+            </a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>

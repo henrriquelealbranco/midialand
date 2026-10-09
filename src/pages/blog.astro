@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageIntro from '../components/PageIntro.astro';
+import Articles from '../components/Articles.astro';
+---
+
+<Layout
+  title="Conteúdos: mídia, experiências e vida urbana"
+  description="Leia publicações da Midialand sobre ativações de marca em Curitiba e o hackathon com a Unisinos em Porto Alegre. Ideias que conectam marcas e cidades."
+>
+  <PageIntro
+    eyebrow="Conteúdos"
+    title="Um olhar para o que acontece lá fora."
+    description="Mídia, experiências e ideias para a cidade. Explore as publicações e continue a leitura no site oficial da Midialand."
+  />
+  <section class="container" style="padding-bottom:90px" aria-label="Publicações da Midialand">
+    <Articles />
+  </section>
+</Layout>

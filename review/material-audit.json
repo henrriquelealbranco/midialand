@@ -1,0 +1,2074 @@
+{
+  "manifest_entries": 185,
+  "catalog_entries": 181,
+  "hash_failures": [],
+  "images": [
+    {
+      "file": "assets/cropped-midialand512-32x32.png",
+      "category": "marca",
+      "width": 32,
+      "height": 32,
+      "source_url": "https://midialand.com/wp-content/uploads/2024/10/cropped-midialand512-32x32.png",
+      "pages": [
+        "https://midialand.com/",
+        "https://midialand.com/produtos/",
+        "https://midialand.com/sobre-nos/",
+        "https://midialand.com/tv-do-onibus/",
+        "https://midialand.com/cases/",
+        "https://midialand.com/contato/",
+        "https://midialand.com/blog/",
+        "https://midialand.com/produtos",
+        "https://midialand.com/tv-do-onibus",
+        "https://midialand.com/sobre-nos",
+        "https://midialand.com/cases",
+        "https://midialand.com/contato",
+        "https://midialand.com/blog",
+        "https://midialand.com/ativacao-de-marca-em-curitiba/",
+        "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+      ]
+    },
+    {
+      "file": "assets/cropped-midialand512-192x192.png",
+      "category": "marca",
+      "width": 192,
+      "height": 192,
+      "source_url": "https://midialand.com/wp-content/uploads/2024/10/cropped-midialand512-192x192.png",
+      "pages": [
+        "https://midialand.com/",
+        "https://midialand.com/produtos/",
+        "https://midialand.com/sobre-nos/",
+        "https://midialand.com/tv-do-onibus/",
+        "https://midialand.com/cases/",
+        "https://midialand.com/contato/",
+        "https://midialand.com/blog/",
+        "https://midialand.com/produtos",
+        "https://midialand.com/tv-do-onibus",
+        "https://midialand.com/sobre-nos",
+        "https://midialand.com/cases",
+        "https://midialand.com/contato",
+        "https://midialand.com/blog",
+        "https://midialand.com/ativacao-de-marca-em-curitiba/",
+        "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+      ]
+    },
+    {
+      "file": "assets/cropped-midialand512-180x180.png",
+      "category": "marca",
+      "width": 180,
+      "height": 180,
+      "source_url": "https://midialand.com/wp-content/uploads/2024/10/cropped-midialand512-180x180.png",
+      "pages": [
+        "https://midialand.com/",
+        "https://midialand.com/produtos/",
+        "https://midialand.com/sobre-nos/",
+        "https://midialand.com/tv-do-onibus/",
+        "https://midialand.com/cases/",
+        "https://midialand.com/contato/",
+        "https://midialand.com/blog/",
+        "https://midialand.com/produtos",
+        "https://midialand.com/tv-do-onibus",
+        "https://midialand.com/sobre-nos",
+        "https://midialand.com/cases",
+        "https://midialand.com/contato",
+        "https://midialand.com/blog",
+        "https://midialand.com/ativacao-de-marca-em-curitiba/",
+        "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+      ]
+    },
+    {
+      "file": "assets/logonew.png",
+      "category": "marca",
+      "width": 2500,
+      "height": 629,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/logonew.png",
+      "pages": [
+        "https://midialand.com/",
+        "https://midialand.com/produtos/",
+        "https://midialand.com/sobre-nos/",
+        "https://midialand.com/tv-do-onibus/",
+        "https://midialand.com/cases/",
+        "https://midialand.com/contato/",
+        "https://midialand.com/blog/",
+        "https://midialand.com/produtos",
+        "https://midialand.com/tv-do-onibus",
+        "https://midialand.com/sobre-nos",
+        "https://midialand.com/cases",
+        "https://midialand.com/contato",
+        "https://midialand.com/blog",
+        "https://midialand.com/ativacao-de-marca-em-curitiba/",
+        "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+      ]
+    },
+    {
+      "file": "assets/logo.png",
+      "category": "marca",
+      "width": 337,
+      "height": 86,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/logo.png",
+      "pages": [
+        "https://midialand.com/",
+        "https://midialand.com/produtos/",
+        "https://midialand.com/sobre-nos/",
+        "https://midialand.com/tv-do-onibus/",
+        "https://midialand.com/cases/",
+        "https://midialand.com/contato/",
+        "https://midialand.com/blog/",
+        "https://midialand.com/produtos",
+        "https://midialand.com/tv-do-onibus",
+        "https://midialand.com/sobre-nos",
+        "https://midialand.com/cases",
+        "https://midialand.com/contato",
+        "https://midialand.com/blog",
+        "https://midialand.com/ativacao-de-marca-em-curitiba/",
+        "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+      ]
+    },
+    {
+      "file": "assets/arrow-left.svg",
+      "category": "icone",
+      "width": null,
+      "height": null,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/arrow-left.svg",
+      "pages": [
+        "https://midialand.com/",
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/arrow-right.svg",
+      "category": "icone",
+      "width": null,
+      "height": null,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/arrow-right.svg",
+      "pages": [
+        "https://midialand.com/",
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/slick1.webp",
+      "category": "solucoes",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/slick1.webp",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/MUB.webp",
+      "category": "solucoes",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/MUB.webp",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/PROJ-ESPE.webp",
+      "category": "solucoes",
+      "width": 1901,
+      "height": 1013,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/PROJ ESPE.webp",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/slick4.webp",
+      "category": "solucoes",
+      "width": 5201,
+      "height": 2291,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/slick4.webp",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/PROJETO-ESP.webp",
+      "category": "solucoes",
+      "width": 1901,
+      "height": 848,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/PROJETO ESP.webp",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/PROJETO-ESPECIAL---MEIO-EXCLUIR-LED-VISCONDE-.webp",
+      "category": "solucoes",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/PROJETO ESPECIAL - MEIO (EXCLUIR LED VISCONDE).webp",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/arrow-left-roxo.svg",
+      "category": "icone",
+      "width": null,
+      "height": null,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/arrow-left-roxo.svg",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/arrow-right-roxo.svg",
+      "category": "icone",
+      "width": null,
+      "height": null,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/arrow-right-roxo.svg",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/estaticoimg.jpg",
+      "category": "solucoes",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/estaticoimg.jpg",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/especialimg.webp",
+      "category": "solucoes",
+      "width": 1901,
+      "height": 824,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/especialimg.webp",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/ledimg.jpg",
+      "category": "solucoes",
+      "width": 5419,
+      "height": 2557,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/ledimg.jpg",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/relogioimg.webp",
+      "category": "solucoes",
+      "width": 5419,
+      "height": 2285,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/relogioimg.webp",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/estaticoicon.png",
+      "category": "icone",
+      "width": 114,
+      "height": 114,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/estaticoicon.png",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/especialicon.png",
+      "category": "icone",
+      "width": 74,
+      "height": 75,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/especialicon.png",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/ledicon.png",
+      "category": "icone",
+      "width": 74,
+      "height": 75,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/ledicon.png",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/relogioicon.png",
+      "category": "icone",
+      "width": 68,
+      "height": 81,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/relogioicon.png",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/estacaoimg.jpg",
+      "category": "solucoes",
+      "width": 5105,
+      "height": 3403,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/estacaoimg.jpg",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/tvimg.jpg",
+      "category": "solucoes",
+      "width": 1280,
+      "height": 853,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/tvimg.jpg",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/acaoimg.png",
+      "category": "solucoes",
+      "width": 1152,
+      "height": 607,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/acaoimg.png",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/mubimg.jpg",
+      "category": "solucoes",
+      "width": 5351,
+      "height": 3567,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/mubimg.jpg",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/estacaoicon.png",
+      "category": "icone",
+      "width": 115,
+      "height": 115,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/estacaoicon.png",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/tvicon.png",
+      "category": "icone",
+      "width": 154,
+      "height": 84,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/tvicon.png",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/acaoicon.png",
+      "category": "icone",
+      "width": 97,
+      "height": 99,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/acaoicon.png",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/mubicon.png",
+      "category": "icone",
+      "width": 67,
+      "height": 115,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/mubicon.png",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/quote.png",
+      "category": "icone",
+      "width": 69,
+      "height": 69,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/quote.png",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    },
+    {
+      "file": "assets/13.webp",
+      "category": "campanhas",
+      "width": 1920,
+      "height": 1056,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/13.webp",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/cases/",
+        "https://midialand.com/produtos",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/CARROSSEL-TOPO.webp",
+      "category": "solucoes",
+      "width": 4032,
+      "height": 2754,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/CARROSSEL TOPO.webp",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/CARROSSEL-TOPO-PRODUTOS.webp",
+      "category": "solucoes",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/CARROSSEL TOPO PRODUTOS.webp",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/CARROSSEL-TOPO-PRODUTOS-2.webp",
+      "category": "solucoes",
+      "width": 1901,
+      "height": 1013,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/CARROSSEL TOPO PRODUTOS 2.webp",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/PRODUTOS---GF-2-.webp",
+      "category": "solucoes",
+      "width": 1901,
+      "height": 1013,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/PRODUTOS - GF 2-.webp",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/PRODUTOS---GF-4--.webp",
+      "category": "solucoes",
+      "width": 1920,
+      "height": 1081,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/PRODUTOS - GF 4 -.webp",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/PRODUTOS---GF-5.webp",
+      "category": "solucoes",
+      "width": 1901,
+      "height": 1013,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/PRODUTOS - GF 5.webp",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/PRODUTOS---GF-6.webp",
+      "category": "solucoes",
+      "width": 1901,
+      "height": 1013,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/PRODUTOS - GF 6.webp",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/PRODUTOS---GF-1--2-.webp",
+      "category": "solucoes",
+      "width": 1901,
+      "height": 1013,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/PRODUTOS - GF 1- (2).webp",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/logonova.png",
+      "category": "solucoes",
+      "width": 703,
+      "height": 326,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/logonova.png",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/logometro.png",
+      "category": "solucoes",
+      "width": 1944,
+      "height": 1614,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/logometro.png",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/1.webp",
+      "category": "campanhas",
+      "width": 5427,
+      "height": 3618,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/1.webp",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/cases/",
+        "https://midialand.com/produtos",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/PRODUTOS---TV-2.webp",
+      "category": "solucoes",
+      "width": 1901,
+      "height": 1013,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/PRODUTOS - TV 2.webp",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/PRODUTOS---TV-3.webp",
+      "category": "solucoes",
+      "width": 2560,
+      "height": 1440,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/PRODUTOS - TV 3.webp",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/PRODUTOS---TV-4.webp",
+      "category": "solucoes",
+      "width": 1901,
+      "height": 1013,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/PRODUTOS - TV 4.webp",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/HOME---CARROSSEL-EXCLUIR-REL-GIO-.webp",
+      "category": "solucoes",
+      "width": 1901,
+      "height": 1013,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/HOME - CARROSSEL (EXCLUIR RELÓGIO).webp",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "referencias/midiakit.pdf",
+      "category": "documento",
+      "width": null,
+      "height": null,
+      "source_url": "https://midialand.com/download/midiakit.pdf",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "referencias/INVENTARIO_painel_CWB.pdf",
+      "category": "documento",
+      "width": null,
+      "height": null,
+      "source_url": "https://midialand.com/download/INVENTARIO_painel_CWB.pdf",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "referencias/INVENTARIO_painel_SJP.pdf",
+      "category": "documento",
+      "width": null,
+      "height": null,
+      "source_url": "https://midialand.com/download/INVENTARIO_painel_SJP.pdf",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "referencias/INVENTARIO_painel_POA.pdf",
+      "category": "documento",
+      "width": null,
+      "height": null,
+      "source_url": "https://midialand.com/download/INVENTARIO_painel_POA.pdf",
+      "pages": [
+        "https://midialand.com/produtos/",
+        "https://midialand.com/produtos"
+      ]
+    },
+    {
+      "file": "assets/SOBRE-N-S.webp",
+      "category": "solucoes",
+      "width": 836,
+      "height": 1011,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/SOBRE NÓS.webp",
+      "pages": [
+        "https://midialand.com/sobre-nos/",
+        "https://midialand.com/sobre-nos"
+      ]
+    },
+    {
+      "file": "assets/tv.png",
+      "category": "solucoes",
+      "width": 720,
+      "height": 609,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/tv.png",
+      "pages": [
+        "https://midialand.com/tv-do-onibus/",
+        "https://midialand.com/tv-do-onibus"
+      ]
+    },
+    {
+      "file": "assets/comercialicon.png",
+      "category": "icone",
+      "width": 158,
+      "height": 97,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/comercialicon.png",
+      "pages": [
+        "https://midialand.com/tv-do-onibus/",
+        "https://midialand.com/tv-do-onibus"
+      ]
+    },
+    {
+      "file": "assets/patrocinadoicon.png",
+      "category": "icone",
+      "width": 160,
+      "height": 97,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/patrocinadoicon.png",
+      "pages": [
+        "https://midialand.com/tv-do-onibus/",
+        "https://midialand.com/tv-do-onibus"
+      ]
+    },
+    {
+      "file": "assets/ativacaoicon.png",
+      "category": "icone",
+      "width": 97,
+      "height": 99,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/ativacaoicon.png",
+      "pages": [
+        "https://midialand.com/tv-do-onibus/",
+        "https://midialand.com/tv-do-onibus"
+      ]
+    },
+    {
+      "file": "assets/g1.png",
+      "category": "solucoes",
+      "width": 126,
+      "height": 131,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/g1.png",
+      "pages": [
+        "https://midialand.com/tv-do-onibus/",
+        "https://midialand.com/tv-do-onibus"
+      ]
+    },
+    {
+      "file": "assets/g2.png",
+      "category": "solucoes",
+      "width": 131,
+      "height": 131,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/g2.png",
+      "pages": [
+        "https://midialand.com/tv-do-onibus/",
+        "https://midialand.com/tv-do-onibus"
+      ]
+    },
+    {
+      "file": "assets/g3.png",
+      "category": "solucoes",
+      "width": 131,
+      "height": 131,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/g3.png",
+      "pages": [
+        "https://midialand.com/tv-do-onibus/",
+        "https://midialand.com/tv-do-onibus"
+      ]
+    },
+    {
+      "file": "assets/mapactba.png",
+      "category": "solucoes",
+      "width": 1037,
+      "height": 1080,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/mapactba.png",
+      "pages": [
+        "https://midialand.com/tv-do-onibus/",
+        "https://midialand.com/tv-do-onibus"
+      ]
+    },
+    {
+      "file": "referencias/Midia_Kit_onibus_metro_estacoes.pdf",
+      "category": "documento",
+      "width": null,
+      "height": null,
+      "source_url": "https://midialand.com/download/Midia_Kit_onibus_metro_estacoes.pdf",
+      "pages": [
+        "https://midialand.com/tv-do-onibus/",
+        "https://midialand.com/tv-do-onibus"
+      ]
+    },
+    {
+      "file": "assets/2.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 901,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/2.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/3.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 901,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/3.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/4.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 901,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/4.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/5.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 901,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/5.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/6.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 901,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/6.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/7.webp",
+      "category": "campanhas",
+      "width": 4160,
+      "height": 2342,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/7.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/8.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 900,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/8.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/9.webp",
+      "category": "campanhas",
+      "width": 1920,
+      "height": 1280,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/9.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/10.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 900,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/10.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/11.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 756,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/11.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/12.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 900,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/12.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/14.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 756,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/14.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/15.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 900,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/15.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/16.webp",
+      "category": "campanhas",
+      "width": 4128,
+      "height": 2322,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/16.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/17.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 900,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/17.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/18.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 900,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/18.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/19.webp",
+      "category": "campanhas",
+      "width": 4080,
+      "height": 2296,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/19.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/20.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 900,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/20.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/21.webp",
+      "category": "campanhas",
+      "width": 4032,
+      "height": 2268,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/21.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/22.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 756,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/22.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/23.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 756,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/23.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/24.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 756,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/24.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/25.webp",
+      "category": "campanhas",
+      "width": 4624,
+      "height": 2604,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/25.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/26.webp",
+      "category": "campanhas",
+      "width": 1255,
+      "height": 836,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/26.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/27.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 900,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/27.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/28.webp",
+      "category": "campanhas",
+      "width": 4624,
+      "height": 2604,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/28.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/29.webp",
+      "category": "campanhas",
+      "width": 4624,
+      "height": 2604,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/29.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/30.webp",
+      "category": "campanhas",
+      "width": 4080,
+      "height": 2288,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/30.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/31.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 900,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/31.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/32.webp",
+      "category": "campanhas",
+      "width": 4080,
+      "height": 2288,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/32.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/33.webp",
+      "category": "campanhas",
+      "width": 4080,
+      "height": 2288,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/33.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/34.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 900,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/34.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/35.webp",
+      "category": "campanhas",
+      "width": 4694,
+      "height": 3129,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/35.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/36.webp",
+      "category": "campanhas",
+      "width": 1600,
+      "height": 900,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/36.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/37.webp",
+      "category": "campanhas",
+      "width": 4624,
+      "height": 2604,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/37.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/38.webp",
+      "category": "campanhas",
+      "width": 4128,
+      "height": 2322,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/38.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/39.webp",
+      "category": "campanhas",
+      "width": 4080,
+      "height": 2288,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/39.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/40.webp",
+      "category": "campanhas",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/40.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/41.webp",
+      "category": "campanhas",
+      "width": 3359,
+      "height": 2239,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/41.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/42.webp",
+      "category": "campanhas",
+      "width": 3609,
+      "height": 2406,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/42.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/43.webp",
+      "category": "campanhas",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/43.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/44.webp",
+      "category": "campanhas",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/44.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/45.webp",
+      "category": "campanhas",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/45.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/46.webp",
+      "category": "campanhas",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/46.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/47.webp",
+      "category": "campanhas",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/47.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/48.webp",
+      "category": "campanhas",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/48.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/49.webp",
+      "category": "campanhas",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/49.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/50.webp",
+      "category": "campanhas",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/50.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/51.webp",
+      "category": "campanhas",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/51.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/52.webp",
+      "category": "campanhas",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/52.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/53.webp",
+      "category": "campanhas",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/53.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/54.webp",
+      "category": "campanhas",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/54.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/55.webp",
+      "category": "campanhas",
+      "width": 3936,
+      "height": 2624,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/55.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/56.webp",
+      "category": "campanhas",
+      "width": 3423,
+      "height": 2282,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/56.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/57.webp",
+      "category": "campanhas",
+      "width": 3349,
+      "height": 2233,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/57.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/58.webp",
+      "category": "campanhas",
+      "width": 5355,
+      "height": 3570,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/58.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/59.webp",
+      "category": "campanhas",
+      "width": 5427,
+      "height": 3618,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/59.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/60.webp",
+      "category": "campanhas",
+      "width": 5393,
+      "height": 3595,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/60.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/61.webp",
+      "category": "campanhas",
+      "width": 5525,
+      "height": 3683,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/61.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/62.webp",
+      "category": "campanhas",
+      "width": 3828,
+      "height": 2552,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/62.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/63.webp",
+      "category": "campanhas",
+      "width": 6000,
+      "height": 4000,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/63.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/64.webp",
+      "category": "campanhas",
+      "width": 5568,
+      "height": 3712,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/64.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/65.webp",
+      "category": "campanhas",
+      "width": 5049,
+      "height": 3366,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/65.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/66.webp",
+      "category": "campanhas",
+      "width": 5365,
+      "height": 3577,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/66.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/67.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/67.webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-1-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (1).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-2-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (2).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-3-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (3).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-4-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (4).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-5-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (5).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-6-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (6).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-7-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (7).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-8-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (8).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-9-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (9).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-10-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (10).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-11-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (11).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-12-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (12).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-13-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (13).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-14-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (14).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-15-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (15).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-16-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (16).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-17-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (17).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-18-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (18).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-19-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (19).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-20-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (20).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-21-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (21).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-22-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (22).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-23-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (23).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/novas-1-24-.webp",
+      "category": "campanhas",
+      "width": 5419,
+      "height": 3613,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/novas 1 (24).webp",
+      "pages": [
+        "https://midialand.com/cases/",
+        "https://midialand.com/cases"
+      ]
+    },
+    {
+      "file": "assets/2-1024x576.png",
+      "category": "ativacoes",
+      "width": 1024,
+      "height": 576,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/2-1024x576.png",
+      "pages": [
+        "https://midialand.com/blog/",
+        "https://midialand.com/blog",
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/2-300x169.png",
+      "category": "ativacoes",
+      "width": 300,
+      "height": 169,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/2-300x169.png",
+      "pages": [
+        "https://midialand.com/blog/",
+        "https://midialand.com/blog",
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/2-768x432.png",
+      "category": "ativacoes",
+      "width": 768,
+      "height": 432,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/2-768x432.png",
+      "pages": [
+        "https://midialand.com/blog/",
+        "https://midialand.com/blog",
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/2-1536x864.png",
+      "category": "ativacoes",
+      "width": 1536,
+      "height": 864,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/2-1536x864.png",
+      "pages": [
+        "https://midialand.com/blog/",
+        "https://midialand.com/blog",
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/2-2048x1152.png",
+      "category": "ativacoes",
+      "width": 2048,
+      "height": 1152,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/2-2048x1152.png",
+      "pages": [
+        "https://midialand.com/blog/",
+        "https://midialand.com/blog",
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/2-1200x675.png",
+      "category": "ativacoes",
+      "width": 1200,
+      "height": 675,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/2-1200x675.png",
+      "pages": [
+        "https://midialand.com/blog/",
+        "https://midialand.com/blog",
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/2-1980x1114.png",
+      "category": "ativacoes",
+      "width": 1980,
+      "height": 1114,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/2-1980x1114.png",
+      "pages": [
+        "https://midialand.com/blog/",
+        "https://midialand.com/blog",
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/Hackathon-628x1024.jpeg",
+      "category": "institucional",
+      "width": 628,
+      "height": 1024,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/05/Hackathon-628x1024.jpeg",
+      "pages": [
+        "https://midialand.com/blog/",
+        "https://midialand.com/blog",
+        "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+      ]
+    },
+    {
+      "file": "assets/Hackathon-184x300.jpeg",
+      "category": "institucional",
+      "width": 184,
+      "height": 300,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/05/Hackathon-184x300.jpeg",
+      "pages": [
+        "https://midialand.com/blog/",
+        "https://midialand.com/blog",
+        "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+      ]
+    },
+    {
+      "file": "assets/Hackathon.jpeg",
+      "category": "institucional",
+      "width": 736,
+      "height": 1201,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/05/Hackathon.jpeg",
+      "pages": [
+        "https://midialand.com/blog/",
+        "https://midialand.com/blog",
+        "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+      ]
+    },
+    {
+      "file": "assets/2-scaled.png",
+      "category": "ativacoes",
+      "width": 2560,
+      "height": 1440,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/2-scaled.png",
+      "pages": [
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/ativacao-de-marca-1-1024x576.png",
+      "category": "ativacoes",
+      "width": 1024,
+      "height": 576,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/ativacao-de-marca-1-1024x576.png",
+      "pages": [
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/ativacao-de-marca-1-300x169.png",
+      "category": "ativacoes",
+      "width": 300,
+      "height": 169,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/ativacao-de-marca-1-300x169.png",
+      "pages": [
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/ativacao-de-marca-1-768x432.png",
+      "category": "ativacoes",
+      "width": 768,
+      "height": 432,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/ativacao-de-marca-1-768x432.png",
+      "pages": [
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/ativacao-de-marca-1-1536x864.png",
+      "category": "ativacoes",
+      "width": 1536,
+      "height": 864,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/ativacao-de-marca-1-1536x864.png",
+      "pages": [
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/ativacao-de-marca-1-2048x1152.png",
+      "category": "ativacoes",
+      "width": 2048,
+      "height": 1152,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/ativacao-de-marca-1-2048x1152.png",
+      "pages": [
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/ativacao-de-marca-1-1200x675.png",
+      "category": "ativacoes",
+      "width": 1200,
+      "height": 675,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/ativacao-de-marca-1-1200x675.png",
+      "pages": [
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/ativacao-de-marca-1-1980x1114.png",
+      "category": "ativacoes",
+      "width": 1980,
+      "height": 1114,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/ativacao-de-marca-1-1980x1114.png",
+      "pages": [
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/ativacao-de-marca-1024x576.png",
+      "category": "ativacoes",
+      "width": 1024,
+      "height": 576,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/ativacao-de-marca-1024x576.png",
+      "pages": [
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/ativacao-de-marca-300x169.png",
+      "category": "ativacoes",
+      "width": 300,
+      "height": 169,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/ativacao-de-marca-300x169.png",
+      "pages": [
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/ativacao-de-marca-768x432.png",
+      "category": "ativacoes",
+      "width": 768,
+      "height": 432,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/ativacao-de-marca-768x432.png",
+      "pages": [
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/ativacao-de-marca-1536x864.png",
+      "category": "ativacoes",
+      "width": 1536,
+      "height": 864,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/ativacao-de-marca-1536x864.png",
+      "pages": [
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/ativacao-de-marca-2048x1152.png",
+      "category": "ativacoes",
+      "width": 2048,
+      "height": 1152,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/ativacao-de-marca-2048x1152.png",
+      "pages": [
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/ativacao-de-marca-1200x675.png",
+      "category": "ativacoes",
+      "width": 1200,
+      "height": 675,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/ativacao-de-marca-1200x675.png",
+      "pages": [
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/ativacao-de-marca-1980x1114.png",
+      "category": "ativacoes",
+      "width": 1980,
+      "height": 1114,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/06/ativacao-de-marca-1980x1114.png",
+      "pages": [
+        "https://midialand.com/ativacao-de-marca-em-curitiba/"
+      ]
+    },
+    {
+      "file": "assets/Hackathon-1-.jpeg",
+      "category": "institucional",
+      "width": 467,
+      "height": 700,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/05/Hackathon-1-.jpeg",
+      "pages": [
+        "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+      ]
+    },
+    {
+      "file": "assets/Hackathon-1--200x300.jpeg",
+      "category": "institucional",
+      "width": 200,
+      "height": 300,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/05/Hackathon-1--200x300.jpeg",
+      "pages": [
+        "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+      ]
+    },
+    {
+      "file": "assets/Hackathon-2.jpeg",
+      "category": "institucional",
+      "width": 466,
+      "height": 699,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/05/Hackathon-2.jpeg",
+      "pages": [
+        "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+      ]
+    },
+    {
+      "file": "assets/Hackathon-2-200x300.jpeg",
+      "category": "institucional",
+      "width": 200,
+      "height": 300,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/05/Hackathon-2-200x300.jpeg",
+      "pages": [
+        "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+      ]
+    },
+    {
+      "file": "assets/Hackathon-3.jpeg",
+      "category": "institucional",
+      "width": 1010,
+      "height": 673,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/05/Hackathon-3.jpeg",
+      "pages": [
+        "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+      ]
+    },
+    {
+      "file": "assets/Hackathon-3-300x200.jpeg",
+      "category": "institucional",
+      "width": 300,
+      "height": 200,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/05/Hackathon-3-300x200.jpeg",
+      "pages": [
+        "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+      ]
+    },
+    {
+      "file": "assets/Hackathon-3-768x512.jpeg",
+      "category": "institucional",
+      "width": 768,
+      "height": 512,
+      "source_url": "https://midialand.com/wp-content/uploads/2026/05/Hackathon-3-768x512.jpeg",
+      "pages": [
+        "https://midialand.com/hackathon-em-porto-alegre-unisinos-solucoes-sustentaveis/"
+      ]
+    },
+    {
+      "file": "assets/bgcomp18.png",
+      "category": "solucoes",
+      "width": 1920,
+      "height": 623,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/bgcomp18.png",
+      "pages": [
+        "https://midialand.com/tv-do-onibus/"
+      ]
+    },
+    {
+      "file": "assets/bgcomp8.png",
+      "category": "solucoes",
+      "width": 1919,
+      "height": 368,
+      "source_url": "https://midialand.com/wp-content/themes/midialand24/assets/img/bgcomp8.png",
+      "pages": [
+        "https://midialand.com/"
+      ]
+    }
+  ]
+}

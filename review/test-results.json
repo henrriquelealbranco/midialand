@@ -1,0 +1,338 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "h1": "Sua marca no caminho de milhares de histórias.",
+      "overflow": false
+    },
+    {
+      "route": "/produtos/",
+      "width": 1440,
+      "status": 200,
+      "h1": "Diferentes formatos. A mesma conexão.",
+      "overflow": false
+    },
+    {
+      "route": "/tv-do-onibus/",
+      "width": 1440,
+      "status": 200,
+      "h1": "Sua marca vai junto.",
+      "overflow": false
+    },
+    {
+      "route": "/onde-estamos/",
+      "width": 1440,
+      "status": 200,
+      "h1": "Sua marca encontra o seu lugar.",
+      "overflow": false
+    },
+    {
+      "route": "/cases/",
+      "width": 1440,
+      "status": 200,
+      "h1": "Mídia que faz parte da cidade.",
+      "overflow": false
+    },
+    {
+      "route": "/sobre-nos/",
+      "width": 1440,
+      "status": 200,
+      "h1": "Acreditamos nas conexões que acontecem lá fora.",
+      "overflow": false
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "status": 200,
+      "h1": "Um olhar para o que acontece lá fora.",
+      "overflow": false
+    },
+    {
+      "route": "/contato/",
+      "width": 1440,
+      "status": 200,
+      "h1": "Qual é o seu próximo movimento?",
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "status": 200,
+      "h1": "Sua marca no caminho de milhares de histórias.",
+      "overflow": false
+    },
+    {
+      "route": "/produtos/",
+      "width": 768,
+      "status": 200,
+      "h1": "Diferentes formatos. A mesma conexão.",
+      "overflow": false
+    },
+    {
+      "route": "/tv-do-onibus/",
+      "width": 768,
+      "status": 200,
+      "h1": "Sua marca vai junto.",
+      "overflow": false
+    },
+    {
+      "route": "/onde-estamos/",
+      "width": 768,
+      "status": 200,
+      "h1": "Sua marca encontra o seu lugar.",
+      "overflow": false
+    },
+    {
+      "route": "/cases/",
+      "width": 768,
+      "status": 200,
+      "h1": "Mídia que faz parte da cidade.",
+      "overflow": false
+    },
+    {
+      "route": "/sobre-nos/",
+      "width": 768,
+      "status": 200,
+      "h1": "Acreditamos nas conexões que acontecem lá fora.",
+      "overflow": false
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "status": 200,
+      "h1": "Um olhar para o que acontece lá fora.",
+      "overflow": false
+    },
+    {
+      "route": "/contato/",
+      "width": 768,
+      "status": 200,
+      "h1": "Qual é o seu próximo movimento?",
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "h1": "Sua marca no caminho de milhares de histórias.",
+      "overflow": false
+    },
+    {
+      "route": "/produtos/",
+      "width": 390,
+      "status": 200,
+      "h1": "Diferentes formatos. A mesma conexão.",
+      "overflow": false
+    },
+    {
+      "route": "/tv-do-onibus/",
+      "width": 390,
+      "status": 200,
+      "h1": "Sua marca vai junto.",
+      "overflow": false
+    },
+    {
+      "route": "/onde-estamos/",
+      "width": 390,
+      "status": 200,
+      "h1": "Sua marca encontra o seu lugar.",
+      "overflow": false
+    },
+    {
+      "route": "/cases/",
+      "width": 390,
+      "status": 200,
+      "h1": "Mídia que faz parte da cidade.",
+      "overflow": false
+    },
+    {
+      "route": "/sobre-nos/",
+      "width": 390,
+      "status": 200,
+      "h1": "Acreditamos nas conexões que acontecem lá fora.",
+      "overflow": false
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "status": 200,
+      "h1": "Um olhar para o que acontece lá fora.",
+      "overflow": false
+    },
+    {
+      "route": "/contato/",
+      "width": 390,
+      "status": 200,
+      "h1": "Qual é o seu próximo movimento?",
+      "overflow": false
+    }
+  ],
+  "flows": [
+    "Menu: 390/768, link, Escape e foco",
+    "Cidades: 3 painéis, inventários corretos e setas no teclado",
+    "Galeria: 5 filtros, lightbox, navegação, Escape e foco",
+    "Contato: ambas as jornadas, erros/foco, parâmetros, telefone opcional, resumo, cópia/fallback, nenhuma requisição de envio",
+    "Links internos e âncoras, 5 PDFs, sitemap, robots e página 404"
+  ],
+  "console_errors": [],
+  "failed_requests": [],
+  "a11y": [
+    {
+      "page": "/@1440",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "page": "/produtos/@1440",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "page": "/tv-do-onibus/@1440",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "page": "/onde-estamos/@1440",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "page": "/cases/@1440",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "page": "/sobre-nos/@1440",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "page": "/blog/@1440",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "page": "/contato/@1440",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "page": "/@390",
+      "violations": [],
+      "incomplete": 1
+    },
+    {
+      "page": "/produtos/@390",
+      "violations": [],
+      "incomplete": 1
+    },
+    {
+      "page": "/tv-do-onibus/@390",
+      "violations": [],
+      "incomplete": 1
+    },
+    {
+      "page": "/onde-estamos/@390",
+      "violations": [],
+      "incomplete": 1
+    },
+    {
+      "page": "/cases/@390",
+      "violations": [],
+      "incomplete": 1
+    },
+    {
+      "page": "/sobre-nos/@390",
+      "violations": [],
+      "incomplete": 1
+    },
+    {
+      "page": "/blog/@390",
+      "violations": [],
+      "incomplete": 1
+    },
+    {
+      "page": "/contato/@390",
+      "violations": [],
+      "incomplete": 1
+    },
+    {
+      "page": "mobile-menu",
+      "violations": [],
+      "incomplete": 1
+    },
+    {
+      "page": "lightbox",
+      "violations": [],
+      "incomplete": 1
+    },
+    {
+      "page": "form-ceder-result",
+      "violations": [],
+      "incomplete": 1
+    }
+  ],
+  "downloads": [
+    {
+      "url": "/downloads/INVENTARIO_painel_CWB.pdf",
+      "status": 200,
+      "bytes": 15686580
+    },
+    {
+      "url": "/downloads/INVENTARIO_painel_POA.pdf",
+      "status": 200,
+      "bytes": 15478985
+    },
+    {
+      "url": "/downloads/INVENTARIO_painel_SJP.pdf",
+      "status": 200,
+      "bytes": 1653660
+    },
+    {
+      "url": "/downloads/Midia_Kit_onibus_metro_estacoes.pdf",
+      "status": 200,
+      "bytes": 4040313
+    },
+    {
+      "url": "/downloads/midiakit.pdf",
+      "status": 200,
+      "bytes": 9866043
+    }
+  ],
+  "internal_links": 28,
+  "_internal_hrefs": [
+    "/",
+    "/blog/",
+    "/cases/",
+    "/contato/",
+    "/contato/?cidade=Curitiba",
+    "/contato/?cidade=Outra%20cidade",
+    "/contato/?cidade=Porto%20Alegre",
+    "/contato/?cidade=S%C3%A3o%20Jos%C3%A9%20dos%20Pinhais",
+    "/contato/?solucao=Grandes%20formatos",
+    "/contato/?solucao=M%C3%ADdia%20no%20transporte",
+    "/contato/?solucao=Mobili%C3%A1rio%20urbano",
+    "/contato/?solucao=Pain%C3%A9is%20digitais",
+    "/contato/?solucao=Projetos%20e%20ativa%C3%A7%C3%B5es",
+    "/downloads/INVENTARIO_painel_CWB.pdf",
+    "/downloads/INVENTARIO_painel_POA.pdf",
+    "/downloads/INVENTARIO_painel_SJP.pdf",
+    "/downloads/Midia_Kit_onibus_metro_estacoes.pdf",
+    "/downloads/midiakit.pdf",
+    "/onde-estamos/",
+    "/produtos/",
+    "/produtos/#grandes-formatos",
+    "/produtos/#mobiliario-urbano",
+    "/produtos/#paineis-digitais",
+    "/produtos/#projetos-e-ativacoes",
+    "/produtos/#transporte-coletivo",
+    "/sobre-nos/",
+    "/sobre-nos/#cidade",
+    "/tv-do-onibus/"
+  ],
+  "third_party_requests": 0,
+  "passed": true
+}

@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageIntro from '../components/PageIntro.astro';
+import Gallery from '../components/Gallery.astro';
+---
+
+<Layout
+  title="Campanhas: mídia que faz parte da cidade"
+  description="Veja fotografias do acervo Midialand: grandes formatos, mídia digital, transporte coletivo e ativações. Explore os formatos em diferentes contextos urbanos."
+>
+  <PageIntro
+    eyebrow="Galeria de campanhas"
+    title="Mídia que faz parte da cidade."
+    description="Uma seleção de imagens do acervo Midialand. Diferentes formatos, contextos e maneiras de encontrar as pessoas no mundo lá fora."
+  />
+  <section
+    class="container"
+    style="padding-bottom:90px"
+    aria-label="Galeria de imagens de campanhas"
+  >
+    <Gallery filters />
+  </section>
+</Layout>

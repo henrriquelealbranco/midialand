@@ -1,0 +1,195 @@
+---
+import Arrow from './Arrow.astro';
+import { solutions } from '../data/site';
+type Field = {
+  name: string;
+  label: string;
+  type: 'text' | 'email' | 'tel' | 'select' | 'textarea';
+  required?: boolean;
+  autocomplete?: string;
+  options?: string[];
+  wide?: boolean;
+  placeholder?: string;
+};
+const cities = ['Curitiba', 'São José dos Pinhais', 'Porto Alegre', 'Outra cidade'];
+const advertiser: Field[] = [
+  { name: 'nome', label: 'Seu nome', type: 'text', required: true, autocomplete: 'name' },
+  { name: 'empresa', label: 'Empresa', type: 'text', required: true, autocomplete: 'organization' },
+  { name: 'email', label: 'E-mail', type: 'email', required: true, autocomplete: 'email' },
+  { name: 'telefone', label: 'Telefone', type: 'tel', autocomplete: 'tel' },
+  { name: 'cidade', label: 'Cidade de interesse', type: 'select', required: true, options: cities },
+  {
+    name: 'solucao',
+    label: 'Solução de interesse',
+    type: 'select',
+    required: true,
+    options: [...solutions.map((s) => s.title), 'Quero orientação da equipe'],
+  },
+  {
+    name: 'objetivo',
+    label: 'Qual é o objetivo da campanha?',
+    type: 'textarea',
+    required: true,
+    wide: true,
+    placeholder: 'Conte o que sua marca quer comunicar.',
+  },
+];
+const owner: Field[] = [
+  { name: 'nome', label: 'Seu nome', type: 'text', required: true, autocomplete: 'name' },
+  { name: 'contato', label: 'E-mail ou telefone', type: 'text', required: true },
+  {
+    name: 'cidade',
+    label: 'Cidade do espaço',
+    type: 'text',
+    required: true,
+    autocomplete: 'address-level2',
+  },
+  {
+    name: 'tipo',
+    label: 'Tipo de espaço',
+    type: 'select',
+    required: true,
+    options: ['Terreno', 'Fachada ou empena', 'Cobertura', 'Outro espaço'],
+  },
+  {
+    name: 'descricao',
+    label: 'Conte um pouco sobre o espaço',
+    type: 'textarea',
+    required: true,
+    wide: true,
+    placeholder: 'Descreva a região, o tipo de imóvel e suas características.',
+  },
+];
+const modes = [
+  {
+    id: 'anunciar',
+    label: 'Quero anunciar',
+    intro: 'Conte um pouco sobre a campanha. Os campos são obrigatórios, exceto o telefone.',
+    fields: advertiser,
+  },
+  {
+    id: 'ceder',
+    label: 'Quero ceder espaço',
+    intro: 'Apresente seu espaço para uma conversa com a equipe. Todos os campos são obrigatórios.',
+    fields: owner,
+  },
+];
+---
+
+<div class="form-card" data-contact>
+  <div class="contact-tabs" role="tablist" aria-label="Como podemos ajudar?">
+    {modes.map((mode, i) => (
+      <button
+        type="button"
+        role="tab"
+        id={`contact-tab-${mode.id}`}
+        aria-controls={`contact-panel-${mode.id}`}
+        aria-selected={i === 0 ? 'true' : 'false'}
+        tabindex={i === 0 ? 0 : -1}
+        data-mode={mode.id}
+      >
+        {mode.label}
+      </button>
+    ))}
+  </div>
+  <form id="contact-form" novalidate>
+    {modes.map((mode, i) => (
+      <section
+        id={`contact-panel-${mode.id}`}
+        role="tabpanel"
+        aria-labelledby={`contact-tab-${mode.id}`}
+        hidden={i !== 0}
+      >
+        <p class="form-intro">{mode.intro}</p>
+        <fieldset disabled={i !== 0}>
+          <legend class="sr-only">{mode.label}</legend>
+          <div class="form-grid">
+            {mode.fields.map((field) => {
+              const id = `${mode.id}-${field.name}`;
+              return (
+                <div class:list={['field', { 'field-wide': field.wide }]}>
+                  <label for={id}>
+                    {field.label}
+                    {!field.required && <span> (opcional)</span>}
+                  </label>
+                  {field.type === 'select' ? (
+                    <select
+                      id={id}
+                      name={field.name}
+                      data-label={field.label}
+                      required={field.required}
+                      aria-describedby={`${id}-error`}
+                    >
+                      <option value="">Selecione uma opção</option>
+                      {field.options?.map((option) => (
+                        <option value={option}>{option}</option>
+                      ))}
+                    </select>
+                  ) : field.type === 'textarea' ? (
+                    <textarea
+                      id={id}
+                      name={field.name}
+                      data-label={field.label}
+                      required={field.required}
+                      placeholder={field.placeholder}
+                      maxlength="2000"
+                      rows="4"
+                      aria-describedby={`${id}-error`}
+                    ></textarea>
+                  ) : (
+                    <input
+                      id={id}
+                      name={field.name}
+                      data-label={field.label}
+                      type={field.type}
+                      required={field.required}
+                      autocomplete={field.autocomplete}
+                      maxlength={field.name === 'telefone' ? 25 : 180}
+                      aria-describedby={`${id}-error`}
+                    />
+                  )}
+                  <span id={`${id}-error`} class="field-error" hidden></span>
+                </div>
+              );
+            })}
+          </div>
+        </fieldset>
+      </section>
+    ))}
+    <div class="form-notice">
+      <p>
+        <strong>Versão de demonstração.</strong> Nenhum dado será enviado. Você poderá conferir e
+        copiar um resumo para conversar com a equipe pelos telefones desta página.
+      </p>
+    </div>
+    <p class="form-error-summary" role="alert" hidden></p>
+    <button class="button" type="submit" disabled>
+      Preparar resumo
+      <Arrow direction="up" />
+    </button>
+    <noscript>
+      <p>
+        Para preparar o resumo, ative o JavaScript ou entre em contato pelos telefones desta página.
+      </p>
+    </noscript>
+  </form>
+  <section class="form-result" aria-labelledby="result-title" hidden>
+    <h3 id="result-title" tabindex="-1">
+      Seu resumo está pronto.
+    </h3>
+    <p>
+      Esta é uma demonstração. Os dados não foram enviados à Midialand. Copie o resumo e entre em
+      contato com a equipe.
+    </p>
+    <label class="sr-only" for="contact-summary">
+      Resumo do contato
+    </label>
+    <textarea id="contact-summary" readonly></textarea>
+    <button class="button button-outline" type="button" data-copy>
+      Copiar resumo
+      <Arrow />
+    </button>
+    <p class="copy-status" role="status" aria-live="polite"></p>
+  </section>
+</div>
+<script src="../scripts/contact.ts"></script>

@@ -1,0 +1,184 @@
+---
+import '@fontsource-variable/manrope';
+import '../styles/global.css';
+import { navigation, offices, socials } from '../data/site';
+import Arrow from '../components/Arrow.astro';
+interface Props {
+  title: string;
+  description: string;
+  cta?: boolean;
+}
+const { title, description, cta = true } = Astro.props;
+const path = Astro.url.pathname;
+const canonical = new URL(path, Astro.site);
+const allowIndexing =
+  import.meta.env.PUBLIC_ALLOW_INDEXING === 'true' &&
+  !['localhost', '127.0.0.1'].includes(canonical.hostname);
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | Midialand</title>
+    <meta name="description" content={description} />
+    <meta
+      name="robots"
+      content={allowIndexing ? 'index, follow' : 'noindex, nofollow, noarchive'}
+    />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Midialand" />
+    <meta property="og:title" content={`${title} | Midialand`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL('/images/social.jpg', Astro.site)} />
+    <meta property="og:image:alt" content="Mídia exterior integrada à paisagem urbana" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#432459" />
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">
+      Pular para o conteúdo
+    </a>
+    <header class="site-header">
+      <div class="header-inner container">
+        <a href="/" class="brand" aria-label="Midialand — início">
+          <img src="/images/logo-coral.png" width="2500" height="629" alt="Midialand" />
+        </a>
+        <nav class="desktop-nav" aria-label="Navegação principal">
+          {navigation.map((item) => (
+            <a href={item.href} aria-current={path === item.href ? 'page' : undefined}>
+              {item.label}
+            </a>
+          ))}
+        </nav>
+        <a class="button header-cta" href="/contato/">
+          Solicitar proposta
+          <Arrow direction="up" />
+        </a>
+        <button
+          class="menu-toggle icon-button"
+          type="button"
+          aria-label="Abrir menu"
+          aria-haspopup="dialog"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+    <dialog id="mobile-menu" class="mobile-menu" aria-labelledby="menu-heading">
+      <div class="mobile-menu-top">
+        <h2 id="menu-heading">Explore a Midialand</h2>
+        <button class="icon-button" type="button" data-menu-close aria-label="Fechar menu">
+          ✕
+        </button>
+      </div>
+      <nav aria-label="Navegação móvel">
+        <a href="/">
+          Início
+          <Arrow />
+        </a>
+        {navigation.map((item) => (
+          <a href={item.href} aria-current={path === item.href ? 'page' : undefined}>
+            {item.label}
+            <Arrow />
+          </a>
+        ))}
+        <a href="/tv-do-onibus/">
+          TV do Ônibus
+          <Arrow />
+        </a>
+        <a href="/contato/" class="mobile-contact">
+          Solicitar proposta
+          <Arrow direction="up" />
+        </a>
+      </nav>
+    </dialog>
+    <main id="conteudo" tabindex="-1">
+      <slot />
+    </main>
+    {cta && (
+      <section class="final-cta">
+        <div class="container cta-inner">
+          <div>
+            <p class="eyebrow">Sua próxima campanha começa aqui</p>
+            <h2>
+              Vamos colocar sua
+              <br class="desktop-break" /> marca na rua?
+            </h2>
+          </div>
+          <a class="button button-white" href="/contato/">
+            Planejar minha campanha
+            <Arrow direction="up" />
+          </a>
+        </div>
+      </section>
+    )}
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="/" aria-label="Midialand — início">
+              <img src="/images/logo-coral.png" width="2500" height="629" alt="Midialand" />
+            </a>
+            <p>Mídia que encontra a vida.</p>
+            <div class="socials">
+              {socials.map((social) => (
+                <a href={social.href} target="_blank" rel="noopener noreferrer">
+                  {social.name}
+                  <span class="sr-only"> (abre em nova aba)</span>
+                  <Arrow direction="up" />
+                </a>
+              ))}
+            </div>
+          </div>
+          <div class="footer-nav">
+            <h2>Explore</h2>
+            <a href="/produtos/">Soluções</a>
+            <a href="/tv-do-onibus/">TV do Ônibus</a>
+            <a href="/onde-estamos/">Onde estamos</a>
+            <a href="/cases/">Campanhas</a>
+            <a href="/sobre-nos/">A Midialand</a>
+            <a href="/blog/">Conteúdos</a>
+            <a href="/contato/">Contato</a>
+          </div>
+          {offices.map((office) => (
+            <div class="footer-office">
+              <h2>
+                {office.city} <span>{office.state}</span>
+              </h2>
+              <address>
+                {office.address}
+                <br />
+                {office.neighborhood}
+              </address>
+              <a href={office.href}>
+                {office.phone}
+                <Arrow direction="up" />
+              </a>
+            </div>
+          ))}
+        </div>
+        <div class="footer-bottom">
+          <span>© {new Date().getFullYear()} Midialand.</span>
+          <span>Mídia exterior. Conexões reais.</span>
+          <a href="#conteudo">
+            Voltar ao topo
+            <Arrow direction="up" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="../scripts/menu.ts"></script>
+  </body>
+</html>

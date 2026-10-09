@@ -1,0 +1,115 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageIntro from '../components/PageIntro.astro';
+import Photo from '../components/Photo.astro';
+import Arrow from '../components/Arrow.astro';
+import { articles } from '../data/site';
+---
+
+<Layout
+  title="Sobre a Midialand: marcas, pessoas e cidades"
+  description="Conheça a atuação da Midialand em mídia exterior, tecnologia e experiências urbanas no Paraná e em Porto Alegre, além de suas iniciativas para a cidade."
+>
+  <PageIntro
+    eyebrow="A Midialand"
+    title="Acreditamos nas conexões que acontecem lá fora."
+    description="Uma cidade é feita de encontros. Nosso trabalho é aproximar as marcas dessas histórias, com mídia exterior, tecnologia e experiências urbanas."
+  />
+  <div class="container">
+    <Photo
+      name="galeria-urbana"
+      alt="Avenida com edifícios, automóveis e painel publicitário de grande formato"
+      class="full-image"
+      priority
+      sizes="100vw"
+    />
+  </div>
+  <section class="section container about-statement">
+    <p class="eyebrow">
+      <span class="dot"></span>O que nos move
+    </p>
+    <div>
+      <h2>Estar onde a vida acontece.</h2>
+      <p>
+        A Midialand reúne grandes formatos, painéis digitais, transporte coletivo, mobiliário urbano
+        e projetos especiais. São diferentes meios para inserir a comunicação nos percursos das
+        pessoas.
+      </p>
+      <p>
+        A atuação informada pela empresa inclui Curitiba, Região Metropolitana, litoral e interior
+        do Paraná, além de Porto Alegre. Em cada praça, o planejamento começa por entender a
+        campanha e explorar os formatos com a equipe.
+      </p>
+      <a href="/produtos/" class="text-link" style="margin-top:22px">
+        Conheça nossas soluções
+        <Arrow direction="up" />
+      </a>
+    </div>
+  </section>
+  <section class="section paper">
+    <div class="container">
+      <p class="eyebrow">
+        <span class="dot"></span>Nosso olhar
+      </p>
+      <h2>
+        Formatos que se complementam.
+        <br />
+        Uma cidade de possibilidades.
+      </h2>
+      <div class="principles">
+        <article>
+          <h3>Presença urbana</h3>
+          <p>
+            A comunicação encontra espaços nos trajetos, nos deslocamentos e nos momentos de
+            convivência.
+          </p>
+        </article>
+        <article>
+          <h3>Variedade de mídia</h3>
+          <p>
+            Meios estáticos, digitais e presenciais oferecem diferentes formas de construir uma
+            campanha.
+          </p>
+        </article>
+        <article>
+          <h3>Diálogo com a cidade</h3>
+          <p>Projetos urbanos ampliam o olhar sobre a relação entre mídia, espaços e pessoas.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section id="cidade" class="section container urban-section">
+    <div class="urban-copy">
+      <p class="eyebrow">
+        <span class="dot"></span>Cidade e sustentabilidade
+      </p>
+      <h2>
+        Mais espaço para
+        <br />
+        boas ideias.
+      </h2>
+      <p>
+        No Jardim Pugsley, a Midialand descreve uma iniciativa com áreas verdes, convivência,
+        drenagem, compostagem e materiais reutilizados. Uma forma de pensar o espaço urbano para
+        além da exposição de uma marca.
+      </p>
+      <p>
+        Em outra frente, a publicação de 12 de maio de 2026 relata o hackathon com a Unisinos, em
+        Porto Alegre. O encontro reuniu estudantes em torno de soluções sustentáveis e prevê a
+        execução do projeto vencedor.
+      </p>
+      <a href={articles[1].href} target="_blank" rel="noopener noreferrer" class="text-link">
+        Ler a publicação sobre o encontro
+        <Arrow direction="up" />
+        <span class="sr-only"> (abre em nova aba)</span>
+      </a>
+    </div>
+    <figure class="urban-photo">
+      <Photo
+        name="hackathon"
+        alt="Participantes do hackathon com a Unisinos reunidos para uma fotografia"
+      />
+      <figcaption>Participantes do hackathon com a Unisinos · maio de 2026.</figcaption>
+    </figure>
+  </section>
+</Layout>

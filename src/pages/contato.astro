@@ -1,0 +1,51 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageIntro from '../components/PageIntro.astro';
+import ContactForm from '../components/ContactForm.astro';
+import Arrow from '../components/Arrow.astro';
+import { offices } from '../data/site';
+---
+
+<Layout
+  title="Contato: planeje sua campanha ou apresente seu espaço"
+  description="Converse com a Midialand sobre sua campanha de mídia exterior ou sobre um espaço para mídia. Contatos das equipes de Curitiba e Porto Alegre."
+  cta={false}
+>
+  <PageIntro
+    eyebrow="Vamos conversar"
+    title="Qual é o seu próximo movimento?"
+    description="Você quer levar sua marca para a cidade ou tem um espaço para apresentar? Escolha o caminho que faz sentido para você."
+  />
+  <div class="container contact-layout">
+    <aside class="contact-aside">
+      <h2>
+        Uma boa campanha
+        <br />
+        começa com uma conversa.
+      </h2>
+      <p>
+        Fale com a equipe da sua região para conhecer os formatos, tirar dúvidas e planejar os
+        próximos passos.
+      </p>
+      <div class="contact-offices">
+        {offices.map((office) => (
+          <div class="contact-office">
+            <h3>
+              {office.city} · {office.state}
+            </h3>
+            <a class="phone-link" href={office.href}>
+              {office.phone}
+              <Arrow direction="up" />
+            </a>
+            <address>
+              {office.address}
+              <br />
+              {office.neighborhood}
+            </address>
+          </div>
+        ))}
+      </div>
+    </aside>
+    <ContactForm />
+  </div>
+</Layout>

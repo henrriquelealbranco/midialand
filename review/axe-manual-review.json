@@ -1,0 +1,15 @@
+[
+  {
+    "id": "aria-valid-attr-value",
+    "description": "Ensure all ARIA attributes have valid values",
+    "nodes": [
+      {
+        "target": [
+          ".menu-toggle"
+        ],
+        "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"mobile-menu\"",
+        "any": []
+      }
+    ]
+  }
+]

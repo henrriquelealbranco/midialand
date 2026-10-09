@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+!.env.example
+review/*
+!review/test-results.json
+!review/page-results.json
+!review/axe-manual-review.json
+!review/material-audit.json
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

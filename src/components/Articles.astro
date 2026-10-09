@@ -1,0 +1,36 @@
+---
+import { articles } from '../data/site';
+import Photo from './Photo.astro';
+import Arrow from './Arrow.astro';
+---
+
+<div class="articles-grid">
+  {articles.map((article) => (
+    <article class="article-card">
+      <a
+        href={article.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="article-image"
+        aria-label={`Ler no site oficial: ${article.title} (abre em nova aba)`}
+      >
+        <Photo name={article.image} alt={article.alt} />
+      </a>
+      <div class="article-meta">
+        <span>{article.category}</span>
+        <time datetime={article.date}>{article.displayDate}</time>
+      </div>
+      <h2>
+        <a href={article.href} target="_blank" rel="noopener noreferrer">
+          {article.title}
+        </a>
+      </h2>
+      <p>{article.summary}</p>
+      <a href={article.href} class="text-link" target="_blank" rel="noopener noreferrer">
+        Ler no site oficial
+        <Arrow direction="up" />
+        <span class="sr-only"> (abre em nova aba)</span>
+      </a>
+    </article>
+  ))}
+</div>
